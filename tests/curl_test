@@ -1,0 +1,4 @@
+curl -X POST -k \
+--header 'Content-Type: application/json' \
+-d '{"field1": [1, 2, 3], "field2": [3, 2, 1]}' \
+http://localhost:8080/predict
